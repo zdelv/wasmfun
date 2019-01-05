@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "MinGW",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Users/zachd/Documents/Dev/wasm/emsdk/emscripten/1.38.21/system/include/**",
+                "C:/Users/zachd/Documents/Dev/Libraries/SDL2-2.0.9/x86_64-w64-mingw32/include/SDL2"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:/MinGW/bin/g++.exe --std=c++1z",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}

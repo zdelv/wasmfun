@@ -1,0 +1,26 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JS Test</title>
+  </head>
+  <body>
+    <button type="button" name="button" id="button">Test</button>
+    <a href="#"></a>
+    <script type="text/javascript">
+      document.getElementById('button').onclick = function () {myFunction()};
+
+      function myFunction() {
+        testButton = document.getElementById('button');
+        color = testButton.style.color;
+
+        if (color != "red") {
+          testButton.style.color = "red";
+        } else {
+          testButton.style.color = "yellow";
+        }
+
+      }
+    </script>
+  </body>
+</html>
